@@ -1,3 +1,50 @@
+🌌 NASA APOD Explorer
+
+Aplicación web interactiva que permite explorar la Astronomy Picture of the Day (APOD) de la NASA, consultar imágenes históricas del universo y guardar favoritas directamente en el navegador.
+
+Este proyecto consume la API oficial de la NASA para mostrar contenido astronómico diario acompañado de su explicación científica.
+
+🚀 Demo
+
+https://quiryatm.github.io/Lab-NASA/
+
+🧠 Funcionalidades
+🌠 1. Imagen del día (APOD)
+Obtiene la imagen o video astronómico del día desde la API de la NASA.
+Muestra:
+Título
+Fecha
+Imagen o video
+Explicación científica
+📅 2. Selector de fechas
+Permite consultar APODs de fechas anteriores.
+Validación para evitar fechas futuras.
+Actualiza dinámicamente el contenido según la fecha seleccionada.
+⭐ 3. Sistema de favoritos
+Guarda APODs en favoritos.
+Persistencia mediante localStorage.
+Lista de favoritos accesible desde la interfaz.
+Al hacer clic en un favorito, se carga nuevamente su contenido.
+🛠️ Tecnologías utilizadas
+HTML5
+CSS3
+JavaScript (Vanilla)
+NASA APOD API
+LocalStorage API
+
+🔌 API utilizada
+NASA Astronomy Picture of the Day API
+https://api.nasa.gov/
+
+💡 Aprendizajes del proyecto
+Consumo de APIs REST externas
+Manejo de asincronía con JavaScript
+Manipulación del DOM
+Uso de localStorage
+Validación de formularios
+Manejo de datos dinámicos
+
+Desarrolladoras Full Stack Junior
 # API de la NASA
 # Equipo 5
 # Beltran Angie, Moncada Quiryat, Valencia Lucelly
